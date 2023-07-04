@@ -60,10 +60,6 @@ export async function handler(event, context) {
                     {
                         name: "Что Вы сделаете, чтобы не получить бан в будущем?",
                         value: payload.futureActions.slice(0, MAX_EMBED_FIELD_CHARS)
-                    },
-                    {
-                        name: "Если у Вас ещё что-то в качестве дополнения?",
-                        value: payload.appealText.slice(0, MAX_EMBED_FIELD_CHARS)
                     }
                 ]
             }
